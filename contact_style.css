@@ -1,0 +1,281 @@
+/* Font Face
+   ========================================================================== */
+
+
+@font-face{ 
+	font-family: 'rounded_elegance';
+	src: url('rounded_elegance.woff');
+    src: url('rounded_elegance.woff') format('woff');}
+
+
+
+/* Body
+   ========================================================================== */
+
+body {
+    margin: auto;
+    background: #000f09;
+    font-family: sans-serif;
+}
+
+
+.header {
+    background: #000f09;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    font-family: rounded_elegance;
+}
+
+
+.container {
+	margin-left: 80px;
+    color: #fafafa;
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+}
+
+
+.touch {
+    color: #737373;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.email{
+    text-decoration: none;
+    margin: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+ .email:hover {
+    color: #737373;
+}
+
+.fb {
+    font-size: 20px;
+    font-family: rounded_elegance;
+}
+
+
+.container2 {
+    text-align: right;
+	max-width:500px;
+    width: 70%;
+    color: #fafafa;
+    float: right;
+    margin-right: 100px;
+}
+
+
+h1 a {
+    margin-top: 8px;
+    margin-right: 20px;
+    color: #fafafa;
+    margin-left: 90px;
+    position: absolute;
+     text-decoration: none;
+    list-style: none;
+    font-size: 40px;
+    
+}
+
+
+h2{
+    font-size: 55px;
+    color: #fafafa;
+}
+
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fafafa;
+}
+
+
+/* Images
+   ========================================================================== */
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.banner{
+    height: 600px;
+   margin-top: 90px;
+background-image: url(../Images/contact_banner.jpg);    
+background-size: cover;
+background-position: center;
+}
+
+
+.icon{
+
+    padding: 5px;    
+}
+
+
+/* Navigation
+   ========================================================================== */
+
+
+.navigation {
+    margin-top: 12px;
+    margin-left: 300px;
+    margin-right: 10px;
+    float: right;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+
+
+.navigation ul li {
+     list-style: none;
+    float: left;
+padding: 15px;   
+}
+
+
+.navigation a {
+    color: white;
+    text-decoration: none;  
+}
+
+
+.navigation a:hover {
+    color:#737373;
+    transition: all 0.45s;
+}
+
+
+/* Contact Form
+   ========================================================================== */
+
+* {
+
+    -webkit-box-sizing:border-box;
+}
+
+
+.error {
+        color: #fafafa;
+    font-family: sans-serif;
+font-size: 15px;
+
+}
+
+
+.success {
+    color: #fafafa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+.contact {
+  
+    margin-bottom: 100px;
+    font-family: rounded_elegance;
+}
+
+
+.contact h3 {
+	font-size: 40px;
+    margin-bottom: 0px;
+}
+
+
+.contact h4 {
+	margin: 0 0 15px;
+	display:block;
+    font-size: 15px;
+}
+
+
+fieldset {
+	border: medium none;
+	margin: 0 0 7px;
+	padding: 0;
+    width: 100%;
+}
+
+
+.contact input[type="text"], .contact textarea {
+	width:100%;
+	border:2px solid ;
+	background: #737373;
+	margin:0 0 5px;
+	padding: 15px;
+color: #fff;
+font-family: sans-serif;
+font-size: 15px;
+}
+
+
+.contact textarea {
+	height:100px;   
+}
+
+
+.contact button[type="submit"] {
+	cursor:pointer;
+	width: 100%;
+	border: none;
+	color:#FFF;
+	padding:10px;
+	font-size:15px;
+    background: #737373;
+}
+
+
+.contact button[type="submit"]:hover {
+	background:#4b4b4b;
+	-webkit-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+    outline: 0;
+
+}
+
+
+.contact input:focus, .contact textarea:focus {
+	outline:0;
+	border:1px solid #cdcdcd;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fafafa;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fafafa;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fafafa;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
